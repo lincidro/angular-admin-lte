@@ -7,6 +7,16 @@ import { ControlSidebarComponent } from './shared/control-sidebar/control-sideba
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { MainComponent } from './main/main.component';
+import { AppRoutingModule } from './app-routing.module';
+import { GeneralComponent } from './pages/ui/general/general.component';
+import { IconsComponent } from './pages/ui/icons/icons.component';
+import { ButtonsComponent } from './pages/ui/buttons/buttons.component';
+import { SlidersComponent } from './pages/ui/sliders/sliders.component';
+import { ModalsComponent } from './pages/ui/modals/modals.component';
+import { TimelineComponent } from './pages/ui/timeline/timeline.component';
+import { RibbonsComponent } from './pages/ui/ribbons/ribbons.component';
+import { UINavbarComponent } from './pages/ui/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +25,20 @@ import { FooterComponent } from './shared/footer/footer.component';
     SidebarComponent,
     ControlSidebarComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent,
+    GeneralComponent,
+    IconsComponent,
+    ButtonsComponent,
+    SlidersComponent,
+    ModalsComponent,
+    TimelineComponent,
+    RibbonsComponent,
+    UINavbarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

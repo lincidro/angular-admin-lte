@@ -68,3 +68,10 @@ Second commit
 	Componentes generados: navbar, sidebar, content, control-sidebar, footer
 9. Copiar el codigo que corresponde desde starter.html a cada componente y agregar assets/ donde corresponda(navbar y sidebar)
 10. En app.component.html reemplazar el contenido por los componentes a incluir
+
+---------------------------------------------------------------------------
+
+Third commit - Rutas
+11. Crear componente pages/ui/general y copiar contenido del html si fuera necesario actualizar css
+12. Crear clase app-routing.module.ts y la respectiva ruta
+13. Actualizar app.component.html y routerLink del sidebar
