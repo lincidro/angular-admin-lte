@@ -27,13 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ---------------------------------
-First Commit
+First commit 
 
 1. Crear proyecto sin rutas
 2. Descargar plantilla - https://adminlte.io/ v3.0.1
 3. De AdminLTE-3.0.1 copiar dist y plugins a src/assets/
 4. Copiar el codigo js y css de AdminLTE-3.0.1/starter.html a src/index.html, recordar que estan en assets/
-5. Generar componentes: Header, Menu, Content, Footer y Setting
+5. (No realizar esto, los nombres se mencionan en el punto 8) 
+    Generar componentes: Header, Menu, Content, Footer y Setting 
 6. Al tratar de lanzar el server con la version actual muestra errores, se corrige de la siguiente manera:
 	https://stackoverflow.com/questions/59547657/i-integrate-an-adminlte-template-in-angular-8-the-first-time-when-i-launch-the/59595682#59595682
 	I got the same error when i tried to launch the server.
@@ -58,4 +59,12 @@ First Commit
 	import { Filter } from './ActiveFilter';
 	for
 	import { Filter } from './types';
-7. Copiar el codigo que corresponde desde starter.html a cada componente
+7. (No hacerlo saltar al paso 8) Copiar el codigo que corresponde desde starter.html a cada componente
+
+---------------------------------------------------------------------------
+
+Second commit
+8. Eliminar componentes generados, se crean acorde a la estructura de starter.html
+	Componentes generados: navbar, sidebar, content, control-sidebar, footer
+9. Copiar el codigo que corresponde desde starter.html a cada componente y agregar assets/ donde corresponda(navbar y sidebar)
+10. En app.component.html reemplazar el contenido por los componentes a incluir
